@@ -1,0 +1,9 @@
+.home{
+    /* background-size: contain; */
+}
+@media (max-width : 800px){
+    .main-cnt{
+        /* background-size: contain; */
+    }
+    
+}

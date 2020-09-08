@@ -1,0 +1,23 @@
+<div class="main-cnt">
+    <app-header style="background-color: darkgray;"></app-header>
+    <img src="./assets/close.png" class="close" routerLink = "/main/home">
+    <hr class="brd">
+    <div>
+        <div class="menu">
+            <span class="menu-item"  (click) = "showColArr()">COLLECTION</span>       
+            <div *ngIf = "showCollections" class="showarr">
+                <app-collections></app-collections>  
+            </div>     
+            <span class="menu-item" (click) = "showProductArr()">PRODUCT TYPE</span>
+            <div *ngIf = "showProducts" class="showarr">
+                <app-collections></app-collections>  
+            </div>  
+            <span class="menu-item" (click) = "showBenefitArr()">BENEFITS</span>
+            <div *ngIf = "showBenefits" class="showarr">
+                <app-collections></app-collections> 
+            </div>
+        
+    </div>
+    
+    </div>
+</div>

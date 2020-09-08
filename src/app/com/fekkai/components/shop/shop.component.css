@@ -1,0 +1,54 @@
+.main-cnt{
+/*    background-color: darkgray;*/
+    display: flexbox; 
+    height: 782px;
+}
+.brd{
+    color: black;
+    width: 91.8%;
+    margin-right: 4%;
+
+}
+.close{
+    float: none;
+    height: 20px;
+    width: 20px;
+    margin-left: 94%;
+    margin-top: -30px;
+    background: 0% 0% no-repeat padding-box;
+    opacity: 1;
+    cursor: pointer;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-top: 50px;
+}
+.menu-item{
+    width: 270px;
+    height: 53px;
+    font-size: 20px;
+    text-align: left;
+    font: Regular 40px/53px Microsoft JhengHei;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    cursor: pointer;
+}
+.showarr{
+    margin-left: 12%;
+    font-size: 25px;
+    margin-top: -50px;
+    cursor: pointer;
+    
+}
+@media (max-width : 800px) {
+    .showarr{
+        margin-left: 35%;
+        font-size: 15px;
+    }
+    
+    
+}
+
