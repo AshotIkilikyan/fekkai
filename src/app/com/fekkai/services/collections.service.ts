@@ -1,4 +1,5 @@
 import {Injectable} from '@angular/core';
+import { Key } from 'protractor';
 @Injectable({
     providedIn: 'root',
 })
@@ -11,6 +12,6 @@ export class CollectionService{
         'Baby Blond',
         'Baby Blond',
         'See all',
-    ];
+    ]
  
 }

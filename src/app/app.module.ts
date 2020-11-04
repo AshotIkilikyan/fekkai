@@ -1,3 +1,4 @@
+import { Products } from './com/fekkai/components/products/products.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -26,6 +27,7 @@ import { AngularResizedEventModule } from 'angular-resize-event';
     HomePage,
     MainView,
     Collectoins,
+    Products,
     
 
 

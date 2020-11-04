@@ -1,5 +1,7 @@
+import { CollectionService } from './../../services/collections.service';
+
 import {Component, Injectable} from '@angular/core';
-import { CollectionService } from '../../services/collections.service';
+
 
 @Injectable({
     providedIn: 'root',
@@ -11,6 +13,14 @@ import { CollectionService } from '../../services/collections.service';
 })
 
 export class Collectoins{
-    constructor(public appservice : CollectionService){}
-    
+    public showProducts: boolean[] = [];
+    constructor(public appservice : CollectionService){
+        let count=this.appservice.collectoinsArr.length;
+        for (let index = 0; index < count; index++) {
+            this.showProducts[index]=false;
+        }
+    }
+    showProductArr(index){
+        this.showProducts[index] = !this.showProducts[index];
+    }
 }

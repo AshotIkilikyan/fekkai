@@ -10,5 +10,10 @@ export class ProductService {
         
 
      }
+     productsArr = [
+         {id: 1, name: "Shampoo", description: "Extended Color Vibrancy", price: "8,5 fl oz -$20.00"},
+         {id: 2, name: "Shampoo", description: "Extended Color Vibrancy", price: "8,5 fl oz -$20.00"},
+         {id: 3, name: "Shampoo", description: "Extended Color Vibrancy", price: "8,5 fl oz -$20.00"},
+     ]
 }
 

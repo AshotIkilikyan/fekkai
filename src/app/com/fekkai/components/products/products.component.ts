@@ -1,5 +1,8 @@
-import {Component} from '@angular/core';
-
+import { Component, Injectable } from '@angular/core';
+import { ProductService } from './../../services/products.service';
+@Injectable({
+    providedIn: 'root',
+})
 @Component({
     selector: 'app-products',
     templateUrl: 'products.component.html',
@@ -7,5 +10,5 @@ import {Component} from '@angular/core';
 })
 
 export class Products{
-    
+    constructor(public appService : ProductService){}
 }
